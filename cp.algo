@@ -1,0 +1,30 @@
+
+ALGORITHM chek-point
+
+    
+
+VAR
+i:=INTEGER;
+
+nbr_of_vowule:=INTEGER;
+nombre_of_word:=INTEGER;
+nbre_of_char:=INTEGER;
+d:=INTEGER;
+s:=STRING;
+
+BEGIN
+nbre_of_char:=S.LENTH;
+FOR i FROM 0 TO S.LENTH STEP step  DO
+nbr_of_vowule:=0;
+IF (s[i]=a ||s[i]=i||s[i] es[i]=us[i]=o) THEN
+nbr_of_vowule++
+nombre_of_word:=0;
+ELSE IF
+    (s[i]= '') THEN
+    nombre_of_word++
+
+END_IF
+
+    
+END_FOR
+
